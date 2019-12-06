@@ -58,8 +58,13 @@ const useStyles = makeStyles(theme => ({
             paddingBottom:'3rem'
         }
     },
-    buttons: {
+    buttonSection: {
         textAlign: 'center'
+    },
+    button:{
+        border: '1px solid black',
+        marginRight: '5px',
+        borderRadius: 0
     },
     item:{
         [theme.breakpoints.up('sm')]: {
@@ -102,9 +107,9 @@ export default function CenteredGrid() {
                                     <b>Technologies used:</b> HTML | CSS | JavaScript | React | Redux | React Router | Express | Passport | Mongoose | MongoDB | React Bootstrap | Node | Axios | Heroku | Overwatch API
                     <br></br>
                                     <br></br>
-                                    <div className={classes.buttons}>
-                                        <Button href='https://winnable.herokuapp.com/' target='_blank'>Live</Button>
-                                        <Button href='https://github.com/randomslap/Winnable' target='_blank'>GitHub</Button>
+                                    <div className={classes.buttonSection}>
+                                        <Button className={classes.button} href='https://winnable.herokuapp.com/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://github.com/randomslap/Winnable' target='_blank'>GitHub</Button>
                                     </div>
 
                                 </Typography>
@@ -140,9 +145,9 @@ export default function CenteredGrid() {
                                     <b>Technologies used:</b> HTML | CSS | JavaScript | JQuery | Bootstrap | Handlebars | Express | MySQL | Node | Sequelize | Heroku
                     <br></br>
                                     <br></br>
-                                    <div className={classes.buttons}>
-                                        <Button href='https://garage-sail.herokuapp.com/' target='_blank'>Live</Button>
-                                        <Button href='https://github.com/loganbertrand/Garage-Sail-App' target='_blank'>GitHub</Button>
+                                    <div className={classes.buttonSection}>
+                                        <Button className={classes.button} href='https://garage-sail.herokuapp.com/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://github.com/loganbertrand/Garage-Sail-App' target='_blank'>GitHub</Button>
                                     </div>
                                 </Typography>
 
@@ -177,9 +182,9 @@ export default function CenteredGrid() {
                                     <b>Technologies used:</b> HTML | CSS | JavaScript | JQuery | Bootstrap | Firebase | Google Maps API | Weather API
                     <br></br>
                                     <br></br>
-                                    <div className={classes.buttons}>
-                                        <Button href='http://loganbertrand.com/pick-up-games/' target='_blank'>Live</Button>
-                                        <Button href='https://github.com/loganbertrand/pick-up-games' target='_blank'>GitHub</Button>
+                                    <div className={classes.buttonSection}>
+                                        <Button className={classes.button} href='http://loganbertrand.com/pick-up-games/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://github.com/loganbertrand/pick-up-games' target='_blank'>GitHub</Button>
                                     </div>
 
                                 </Typography>
@@ -215,9 +220,9 @@ export default function CenteredGrid() {
                                     <b>Technologies used:</b> HTML | CSS | JavaScript | React | React Bootstrap
                     <br></br>
                                     <br></br>
-                                    <div className={classes.buttons}>
-                                        <Button href='https://loganbertrand.com/react-memory-game/' target='_blank'>Live</Button>
-                                        <Button href='https://github.com/loganbertrand/react-memory-game' target='_blank'>GitHub</Button>
+                                    <div className={classes.buttonSection}>
+                                        <Button className={classes.button} href='https://loganbertrand.com/react-memory-game/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://github.com/loganbertrand/react-memory-game' target='_blank'>GitHub</Button>
                                     </div>
 
                                 </Typography>

@@ -30,10 +30,15 @@ const useStyles = makeStyles((theme) => ({
       padding:'5px'
   }
 },
-  button:{
+  buttonSection:{
     [theme.breakpoints.only('xs')]: {
       textAlign:'center'
   }
+  },
+  button:{
+    border: '1px solid black',
+    marginRight: '5px',
+    borderRadius: 0
   }
 }));
 
@@ -61,11 +66,11 @@ const About = () => {
                 Before pursuing web development I received my Bachelor's Degree in Technological Entrepreneurship and Management. I leverage my previous background in business to create websites that fit with current trends. Click the buttons below to see more about my web development capabilities.
               </div>
               <br></br>
-              <div className={classes.button}>
-              <Button>
+              <div className={classes.buttonSection}>
+              <Button className={classes.button}>
                 <Link to='/skills'>Skills</Link>
               </Button>
-              <Button>
+              <Button className={classes.button}>
                 <Link to='/projects'>Projects</Link>
               </Button>
               </div>
