@@ -183,7 +183,7 @@ export default function CenteredGrid() {
                     <br></br>
                                     <br></br>
                                     <div className={classes.buttonSection}>
-                                        <Button className={classes.button} href='http://loganbertrand.com/pick-up-games/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://loganbertrand.github.io/pick-up-games/' target='_blank'>Live</Button>
                                         <Button className={classes.button} href='https://github.com/loganbertrand/pick-up-games' target='_blank'>GitHub</Button>
                                     </div>
 
@@ -221,7 +221,7 @@ export default function CenteredGrid() {
                     <br></br>
                                     <br></br>
                                     <div className={classes.buttonSection}>
-                                        <Button className={classes.button} href='https://loganbertrand.com/react-memory-game/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://loganbertrand.github.io/react-memory-game/' target='_blank'>Live</Button>
                                         <Button className={classes.button} href='https://github.com/loganbertrand/react-memory-game' target='_blank'>GitHub</Button>
                                     </div>
 
