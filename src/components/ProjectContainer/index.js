@@ -14,6 +14,7 @@ import GarageSail from '../../assets/garagesail.png';
 import PickUp from '../../assets/pickupgames.png';
 import Winnable from '../../assets/winnable.png';
 import MemoryGame from '../../assets/react-memory.png';
+import ArtNeal from '../../assets/artNeal.png';
 
 
 const useStyles = makeStyles(theme => ({
@@ -80,6 +81,43 @@ export default function CenteredGrid() {
         <div className={classes.root}>
 
             <Grid container spacing={3} className={classes.container}>
+
+            <Grid item sm={12} md={5} >
+                <div className={classes.item}>
+                    <Fade left>
+                        <img src={ArtNeal} alt='Art Neal Art Gallery Home Page' className={classes.image}></img>
+                    </Fade>
+                    </div>
+                </Grid>
+
+                <Grid item sm={12} md={5} className={classes.item}>
+                    <Fade right>
+                        <ExpansionPanel>
+                            <ExpansionPanelSummary
+                                expandIcon={<ExpandMoreIcon />}
+                                aria-controls="panel1a-content"
+                                id="panel1a-header"
+                            >
+                                <Typography className={classes.heading}>ArtNeal</Typography>
+                            </ExpansionPanelSummary>
+                            <ExpansionPanelDetails>
+                                <Typography display='inline-block'>
+                                    ArtNeal is an Art Gallery Website for a local San Diego artist Neal Lange. Alongside the modern and streamlined landing page comes an About Me page and a Gallery page with Lazy Loading utilized for a complete front-end experience in React.
+                        <br></br>
+                                    <br></br>
+                                    <b>Technologies used:</b> HTML | CSS | JavaScript | React | Redux | Next.js | Zeit Now | Styled Components
+                    <br></br>
+                                    <br></br>
+                                    <div className={classes.buttonSection}>
+                                        <Button className={classes.button} href='https://artneal2.now.sh/' target='_blank'>Live</Button>
+                                        <Button className={classes.button} href='https://github.com/Swessle/ArtNeal2' target='_blank'>GitHub</Button>
+                                    </div>
+
+                                </Typography>
+                            </ExpansionPanelDetails>
+                        </ExpansionPanel>
+                    </Fade>
+                </Grid>
                 
                 <Grid item sm={12} md={5} >
                 <div className={classes.item}>
